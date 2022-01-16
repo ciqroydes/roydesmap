@@ -141,6 +141,7 @@
             tiled: true,
             info_format: 'text/html',
             opacity: 1,
+            identify: false,
             attribution: '',
         });
         map.createPane('pane_GoogleSatelliteHybrid_6');
@@ -228,7 +229,7 @@
         document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
         .title += 'Search for a place';
         var baseMaps = {};
-        L.control.layers(baseMaps,{"BUS": layer_BUS_9,'<img src="legend/CIQRoydEspagne_8.png" /> CIQ Roy d\'Espagne': layer_CIQRoydEspagne_8,"Plan IGN j+1": layer_PlanIGNj1_7,"Google Satellite Hybrid": layer_GoogleSatelliteHybrid_6,"Parcelles Cadastrales": layer_ParcellesCadastrales_5,"OSM Standard": layer_OSMStandard_4,"Plan IGN v2": layer_PlanIGNv2_3,"Orthophotos IGN à 20cm": layer_OrthophotosIGN20cm_2,"Ortho 50 cm": layer_Ortho50cm_1,"Annes 50-60 (conception BUS)": layer_Annes5060conceptionBUS_0,},{collapsed:false}).addTo(map);
+        L.control.layers(baseMaps,{"BUS": layer_BUS_9,'<img src="legend/CIQRoydEspagne_8.png" /> CIQ Roy d\'Espagne': layer_CIQRoydEspagne_8,"Plan IGN j+1": layer_PlanIGNj1_7,"Google Satellite Hybrid": layer_GoogleSatelliteHybrid_6,"Parcelles Cadastrales": layer_ParcellesCadastrales_5,"OSM Standard": layer_OSMStandard_4,"Plan IGN v2": layer_PlanIGNv2_3,"Orthophotos IGN à 20cm": layer_OrthophotosIGN20cm_2,"Ortho 50 cm": layer_Ortho50cm_1,"Annes 50-60 (conception BUS)": layer_Annes5060conceptionBUS_0,}).addTo(map);
         setBounds();
         </script>
     </body>
